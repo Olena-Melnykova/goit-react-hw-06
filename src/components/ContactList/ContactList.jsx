@@ -1,4 +1,3 @@
-
 import { useSelector } from 'react-redux';
 import { selectContacts } from '../../redux/contactsSlice';
 import  Contact  from '../Contact/Contact';
@@ -24,7 +23,5 @@ function ContactList() {
   );
 }
 
-
 export default ContactList;
-
 
